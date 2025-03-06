@@ -1,4 +1,4 @@
-# System-Level Computing Projects 🚀  
+# System-Level Computing Projects 
 
 This repository contains three system-level computing projects implemented in C++:  
 
@@ -8,4 +8,4 @@ This repository contains three system-level computing projects implemented in C+
 
 Each project explores core system-level computing concepts such as concurrency, memory management, and operating system fundamentals.  
 
-📂 Navigate to each project's directory for more details.  
+📂 Navigate to each project's directory for more details. :) 
