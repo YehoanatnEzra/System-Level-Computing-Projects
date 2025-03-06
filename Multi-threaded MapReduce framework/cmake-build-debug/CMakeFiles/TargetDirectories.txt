@@ -1,4 +1,0 @@
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3/cmake-build-debug/CMakeFiles/MapReduceFramework.dir
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3/cmake-build-debug/CMakeFiles/test_mapreduce.dir
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

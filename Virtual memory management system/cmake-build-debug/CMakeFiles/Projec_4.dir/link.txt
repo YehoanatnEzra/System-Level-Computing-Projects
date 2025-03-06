@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Projec_4.dir/PhysicalMemory.cpp.o CMakeFiles/Projec_4.dir/VirtualMemory.cpp.o CMakeFiles/Projec_4.dir/SimpleTest.cpp.o -o Projec_4 

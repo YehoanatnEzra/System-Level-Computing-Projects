@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMapReduceFramework.a CMakeFiles/MapReduceFramework.dir/Barrier.cpp.o CMakeFiles/MapReduceFramework.dir/MapReduceFramework.cpp.o
-/usr/bin/ranlib libMapReduceFramework.a

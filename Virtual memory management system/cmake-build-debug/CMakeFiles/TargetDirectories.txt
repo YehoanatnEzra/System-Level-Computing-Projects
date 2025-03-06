@@ -1,3 +1,0 @@
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Virtual memory management system/cmake-build-debug/CMakeFiles/Projec_4.dir
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Virtual memory management system/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Virtual memory management system/cmake-build-debug/CMakeFiles/rebuild_cache.dir
