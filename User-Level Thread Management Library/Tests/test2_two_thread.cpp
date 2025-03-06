@@ -1,4 +1,4 @@
-/*
+/**
  * test2.cc - Two thread: the main thread and one more thread. Check that they switch between them properly.
  *
  * Output should be:
