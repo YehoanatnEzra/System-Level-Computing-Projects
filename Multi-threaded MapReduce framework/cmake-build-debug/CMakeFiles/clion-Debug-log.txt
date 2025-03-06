@@ -1,0 +1,13 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec "/mnt/c/Program Files/JetBrains/CLion 2024.1.3/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S '/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3' -B '/mnt/c/Users/yonzr/Desktop/Yehonatan/Huji/year 2/Os/Projects/Projects_to_git/Ex3/cmake-build-debug'"
+-- Configuring done
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    ../../../../../../../../../../test4-1_thread_4_process.cpp
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: Ex3
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
