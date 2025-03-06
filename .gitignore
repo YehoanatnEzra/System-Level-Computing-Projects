@@ -1,3 +1,28 @@
+# Ignore IDE-specific files
 .idea/
+
+# Ignore CMake build directories
 cmake-build-debug/
-*/cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Ignore compiled binary files
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
+*.dSYM
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
