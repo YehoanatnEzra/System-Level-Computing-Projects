@@ -10,11 +10,11 @@ This library manages user-level threads independently from the OS, supporting:
 - **Optimized performance** using efficient data structures: a ready queue, a sleep map, and a min-heap for managing thread IDs.
 
 ## **Features**
-✔ **Thread Lifecycle Management** – Create, block, resume, and terminate threads.  
-✔ **Round-Robin Scheduling** – Threads execute cyclically with a fixed quantum.  
-✔ **Preemptive Scheduling** – Automatic thread switching via timers.  
-✔ **Sleep Functionality** – Threads can voluntarily sleep for a defined number of quantums.  
-✔ **User-Level Implementation** – No dependency on the `pthread` library.  
+- **Thread Lifecycle Management** – Create, block, resume, and terminate threads.  
+- **Round-Robin Scheduling** – Threads execute cyclically with a fixed quantum.  
+- **Preemptive Scheduling** – Automatic thread switching via timers.  
+- **Sleep Functionality** – Threads can voluntarily sleep for a defined number of quantums.  
+- **User-Level Implementation** – No dependency on the `pthread` library.  
 ---
 
 ## **API Reference**
