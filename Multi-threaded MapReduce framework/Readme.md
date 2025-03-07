@@ -12,7 +12,6 @@ The framework allows users to define **map** and **reduce** functions and execut
 
 ## Project Structure
 ```
-Project Root
 Barrier.h                     # Header file for thread barrier
 Barrier.cpp                   # Implementation of thread barrier
 MapReduceClient.h             # Abstract interface for defining MapReduce jobs
