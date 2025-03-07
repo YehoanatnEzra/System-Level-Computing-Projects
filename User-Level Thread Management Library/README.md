@@ -15,36 +15,6 @@ This library manages user-level threads independently from the OS, supporting:
 ✔ **Preemptive Scheduling** – Automatic thread switching via timers.  
 ✔ **Sleep Functionality** – Threads can voluntarily sleep for a defined number of quantums.  
 ✔ **User-Level Implementation** – No dependency on the `pthread` library.  
-
----
-
-## **Installation & Usage**  
-
-### **1. Clone the Repository**  
-```bash
-git clone <repository-url>
-cd <repository-folder>
-```
-
-### **2. Build the Project**
-```bash
-make
-```
-
-### **3. Run the Tests**
-```bash
-./test_1
-./test_2
-# Add more test cases as needed
-```
-
-> The test cases are included in the repository and were written externally. They verify core functionalities such as **thread creation, scheduling, sleeping, blocking, and termination**.
-
-### **4. Clean the Project (Optional)**
-```bash
-make clean
-```
-
 ---
 
 ## **API Reference**
