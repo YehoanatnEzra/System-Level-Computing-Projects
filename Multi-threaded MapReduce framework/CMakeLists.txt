@@ -19,8 +19,8 @@ add_library(MapReduceFramework STATIC ${SOURCES})
 # Define test executable
 add_executable(
         test_mapreduce
-        #test4-1_thread_4_process.cpp
-        test1-1_thread_1_process.cpp
+        # test4-1_thread_4_process.cpp
+        # test1-1_thread_1_process.cpp
 )
 
 target_link_libraries(test_mapreduce PRIVATE MapReduceFramework)
