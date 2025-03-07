@@ -2,7 +2,7 @@
 
 This repository contains three system-level computing projects implemented in C++:  
 
-- **Multi-threaded MapReduce Framework** – A parallel MapReduce implementation utilizing threads for efficient data processing.  
+- **Multi-threaded MapReduce Framework** – A parallel MapReduce implementation leveraging threads for efficient and scalable data processing.  
 - **User-Level Thread Library** – A user-space thread management library that provides threading and scheduling capabilities.  
 - **Virtual Memory Management System** – A hierarchical page table-based virtual memory system with simulated address translation and page replacement.  
 
