@@ -50,12 +50,7 @@ The test files (`test1-1_thread_1_process.cpp`, `test4-1_thread_4_process.cpp`) 
 
 To enable and run a test, simply uncomment the relevant test file in `CMakeLists.txt` before building.
 
-Example:
-```cmake
-add_executable(
-    test_mapreduce
-    test4-1_thread_4_process.cpp
-)
+
 ```
 
 
