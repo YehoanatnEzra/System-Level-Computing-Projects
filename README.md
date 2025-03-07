@@ -9,3 +9,6 @@ This repository contains three system-level computing projects implemented in C+
 Each project explores core system-level computing concepts such as concurrency, memory management, and operating system fundamentals.  
 
 Navigate to each project's directory for more details.  
+---
+## License
+This project is open-source and available for personal and educational use.
