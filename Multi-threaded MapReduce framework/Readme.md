@@ -22,7 +22,7 @@ test4-1_thread_4_process.cpp  # Test with 4 processes using 1 thread each
 ```
 
 ## How to Use
-1. Implement a custom class inheriting from `MapReduceClient`, defining:
+1. Implement a custom class inheriting from `MapReduceClient` (You can find usage examples in the provided test files), defining:
    - `map` function – Processes input data and emits intermediate key-value pairs.
    - `reduce` function – Aggregates values corresponding to each key.
 2. Create input data as a vector of `(K1*, V1*)` pairs.
