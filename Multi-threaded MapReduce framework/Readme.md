@@ -43,13 +43,13 @@ These tests were not written by myself but can be used to evaluate thread safety
 
 ## Running the Project
 
-This project includes a **pre-configured CMake setup**, allowing easy compilation and testing.
+This project includes a pre-configured CMake setup, allowing easy compilation and testing.
 
 ### Test Execution
 
 The test files (`test1-1_thread_1_process.cpp`, `test4-1_thread_4_process.cpp`) are already included in the CMake setup but **are commented out by default** in `CMakeLists.txt`.
 
-To enable and run a test, simply **uncomment** the relevant test file in `CMakeLists.txt` before building.
+To enable and run a test, simply uncomment the relevant test file in `CMakeLists.txt` before building.
 
 Example:
 ```cmake
