@@ -20,10 +20,10 @@ This library manages user-level threads independently from the OS, supporting:
 ## **API Reference**
 **- int uthread_init(int quantum_usecs)** - Initializes the thread library with a quantum size (in microseconds) 
 **- int uthread_spawn(thread_entry_point entry_point)** - Creates a new thread and adds it to the ready queue.  
-**int uthread_block(int tid)** - Blocks a specified thread, preventing it from executing until resumed. 
-**int uthread_resume(int tid)** - Resumes a previously blocked thread, allowing it to run again.  
-**int uthread_sleep(int num_quantums)** - Makes the **currently running thread sleep** for `num_quantums.
-**int uthread_terminate(int tid)** - Terminates the specified thread. If `tid == 0`, the entire process is terminated.  
+**- int uthread_block(int tid)** - Blocks a specified thread, preventing it from executing until resumed. 
+**- int uthread_resume(int tid)** - Resumes a previously blocked thread, allowing it to run again.  
+**- int uthread_sleep(int num_quantums)** - Makes the currently running thread sleep for `num_quantums.
+**- int uthread_terminate(int tid)** - Terminates the specified thread. If `tid == 0`, the entire process is terminated.  
 
 ## **Test Cases**  
 The project includes externally written test cases that validate the correctness of the library. These tests:
