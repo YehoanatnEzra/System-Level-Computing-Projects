@@ -22,38 +22,38 @@ This library manages user-level threads independently from the OS, supporting:
 ### **Initialize the Thread System**
 
 int uthread_init(int quantum_usecs);
-```
-- Initializes the thread library with a **quantum size** (in microseconds).  
+
+- Initializes the thread library with a quantum size (in microseconds).  
 - Must be called **before** any other `uthread_` function.  
 
 ### **Create a New Thread**
 
 int uthread_spawn(thread_entry_point entry_point);
-```
-- Creates a new thread and adds it to the **ready queue**.  
+
+- Creates a new thread and adds it to the ready queue.  
 
 ### **Block a Thread**
 
 int uthread_block(int tid);
-```
+
 - Blocks a specified thread, preventing it from executing until resumed.  
 
 ### **Resume a Blocked Thread**
 
 int uthread_resume(int tid);
-```
+
 - Resumes a previously blocked thread, allowing it to run again.  
 
 ### **Put a Thread to Sleep**
 
 int uthread_sleep(int num_quantums);
-```
+
 - Makes the **currently running thread sleep** for `num_quantums`.  
 
 ### **Terminate a Thread**
 
 int uthread_terminate(int tid);
-```
+
 - Terminates the specified thread.  
 - If `tid == 0`, the entire process is terminated.  
 
