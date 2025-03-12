@@ -11,5 +11,5 @@ add_executable(Projec_4
         PhysicalMemory.h
         VirtualMemory.cpp
         VirtualMemory.h
-        SimpleTest.cpp
+        # SimpleTest.cpp
 )
