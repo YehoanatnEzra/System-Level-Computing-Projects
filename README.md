@@ -10,6 +10,10 @@ Each project explores core system-level computing concepts such as concurrency, 
 
 Navigate to each project's directory for more details :)
 
+Feedback & Contact
+If you find any issues, have questions, or suggestions for improvement, feel free to reach out.
+- Email: yonzra12@gmail.com
+
 ---
 ## License
 This project is open-source and available for personal and educational use.
