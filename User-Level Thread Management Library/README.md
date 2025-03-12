@@ -25,3 +25,8 @@ The project includes externally written test cases that validate the correctness
 - **Demonstrate API usage** in various scenarios.
 - **Verify core functionalities**, including scheduling, blocking, sleeping, and termination.
 - **Are located in the repository** and can be executed as described above.
+- 
+**Running the Tests** :
+By default, test files are commented out in the CMakeLists.txt file. To enable and run specific tests:
+  1) Open CMakeLists.txt.
+  2) Uncomment the desired test files under the section
