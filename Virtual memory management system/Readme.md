@@ -1,9 +1,6 @@
 # **Hierarchical Virtual Memory Management System**
-
-## **Overview**
 This project implements a virtual memory management system in C++ using hierarchical page tables.
 The system translates virtual addresses to physical addresses and efficiently manages page allocation, swapping, and eviction. 
-
 The project was developed as part of an Operating Systems course and demonstrates low-level memory management techniques, including:
 - Hierarchical Page Tables for efficient memory translation.
 - Page Fault Handling & Eviction to manage memory constraints.
