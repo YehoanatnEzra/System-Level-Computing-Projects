@@ -13,6 +13,7 @@ Navigate to each project's directory for more details :)
 ## Feedback & Contact
 If you find any issues, have questions, or suggestions for improvement, feel free to reach out.
 - Email: yonzra12@gmail.com
+- Linkdin: www.linkedin.com/in/yehonatanezra
 
 ---
 ## License
