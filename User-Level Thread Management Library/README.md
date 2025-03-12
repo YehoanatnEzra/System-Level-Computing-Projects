@@ -2,19 +2,14 @@
 This project is a user-level thread management library for a Linux-based operating system. It provides efficient thread management, including creation, scheduling, and termination, without relying on OS-level threading mechanisms.
 
 ## **Project Overview**  
-This library manages user-level threads independently from the OS, supporting:
-- **Thread creation, scheduling, blocking, and termination.**
-- **Round-Robin scheduling** with a fixed quantum per thread.
-- **Preemptive context switching** using signals and timers (`setitimer`, `sigaction`).
-- **Sleep functionality**, allowing threads to suspend themselves for a specified number of quantums.
-- **Optimized performance** using efficient data structures: a ready queue, a sleep map, and a min-heap for managing thread IDs.
+This library enables user-level thread management independently of the operating system, utilizing Round-Robin scheduling with fixed time slices and preemptive context switching via signals and timers (setitimer, sigaction). It supports essential thread operations such as creation, blocking, and termination while providing efficient sleep functionality for suspending threads for a defined number of quanta. The implementation is optimized with data structures like a ready queue, a sleep map, and a min-heap for managing thread IDs.
 
 ## **Features**
-- **Thread Lifecycle Management** – Create, block, resume, and terminate threads.  
-- **Round-Robin Scheduling** – Threads execute cyclically with a fixed quantum.  
-- **Preemptive Scheduling** – Automatic thread switching via timers.  
-- **Sleep Functionality** – Threads can voluntarily sleep for a defined number of quantums.  
-- **User-Level Implementation** – No dependency on the `pthread` library.  
+- **Thread Lifecycle Management** – Create, block, resume, and terminate threads.
+= **Preemptive Scheduling – Automatic** thread switching via timers.
+-- **Sleep Functionality** – Threads can voluntarily sleep for a defined duration.
+- **Optimized Performance** – Efficient scheduling and thread ID management.
+- **User-Level Implementation** – No dependency on the pthread library.
 ---
 
 ## **API Reference**
