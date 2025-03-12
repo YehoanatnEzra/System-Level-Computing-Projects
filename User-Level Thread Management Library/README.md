@@ -22,5 +22,5 @@ This library enables user-level thread management independently of the operating
 
 ## **Test Cases**  
 The project includes externally written test cases that validate the correctness of the library. By default, these tests are commented out in the CMakeLists.txt file. To enable and run specific tests:
-  1) Open CMakeLists.txt.
-  2) Uncomment the desired test files under the section
+  - Open CMakeLists.txt.
+  -  Uncomment the desired test files under the section
