@@ -22,19 +22,19 @@ test4-1_thread_4_process.cpp  # Test with 4 processes using 1 thread each
 ```
 
 ## How to Use
-1. Implement a custom class inheriting from `MapReduceClient` (You can find usage examples in the provided test files), defining:
+- Implement a custom class inheriting from `MapReduceClient` (You can find usage examples in the provided test files), defining:
    - `map` function – Processes input data and emits intermediate key-value pairs.
    - `reduce` function – Aggregates values corresponding to each key.
-2. Create input data as a vector of `(K1*, V1*)` pairs.
-3. Start the MapReduce job using:
+- Create input data as a vector of `(K1*, V1*)` pairs.
+- Start the MapReduce job using:
    ```cpp
    JobHandle job = startMapReduceJob(client, inputVec, outputVec, numThreads);
    ```
-4. Wait for job completion using:
+- Wait for job completion using:
    ```cpp
    waitForJob(job);
    ```
-5. Retrieve results from `outputVec`.
+- Retrieve results from `outputVec`.
 
 ## Tests
 This repository includes pre-written test cases (`test1-1_thread_1_process.cpp` and `test4-1_thread_4_process.cpp`) to validate the correctness and performance of the framework. These tests were not written by myself but can be used to evaluate thread safety and execution behavior.
