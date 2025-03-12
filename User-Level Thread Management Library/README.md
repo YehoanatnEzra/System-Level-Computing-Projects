@@ -21,12 +21,6 @@ This library enables user-level thread management independently of the operating
 - **int uthread_terminate(int tid)** - Terminates the specified thread. If `tid == 0`, the entire process is terminated.  
 
 ## **Test Cases**  
-The project includes externally written test cases that validate the correctness of the library. These tests:
-- **Demonstrate API usage** in various scenarios.
-- **Verify core functionalities**, including scheduling, blocking, sleeping, and termination.
-- **Are located in the repository** and can be executed as described above.
-- 
-# **Running the Tests** :
-  By default, test files are commented out in the CMakeLists.txt file. To enable and run specific tests:
+The project includes externally written test cases that validate the correctness of the library. By default, these tests are commented out in the CMakeLists.txt file. To enable and run specific tests:
   1) Open CMakeLists.txt.
   2) Uncomment the desired test files under the section
