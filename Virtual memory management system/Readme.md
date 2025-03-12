@@ -30,4 +30,10 @@ This project simulates a **virtual memory system** using a hierarchical page tab
 - **MemoryConstants.h**        - Constants for memory sizes and configurations
 - **SimpleTest.cpp**           - Test case (not written by me)
 
+## Tests
+
+This repository includes pre-written test cases (Simple.Test.cpp). These tests were not written by me, but they can be used to evaluate thread safety and execution behavior.
+The test file is already included in the CMake setup but is commented out by default in CMakeLists.txt. To enable and run a test, simply uncomment the relevant test file in CMakeLists.txt before building.
+
+
 
