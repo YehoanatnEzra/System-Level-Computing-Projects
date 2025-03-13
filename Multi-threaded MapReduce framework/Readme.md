@@ -10,13 +10,13 @@ The framework allows users to define **map** and **reduce** functions and execut
 
 ## Project Structure
 ף',+
-- Barrier.h                     # Header file for thread barrier
-- Barrier.cpp                   # Implementation of thread barrier
-- MapReduceClient.h             # Abstract interface for defining MapReduce jobs
-- MapReduceFramework.h          # Header file defining the MapReduce framework
-- MapReduceFramework.cpp        # Implementation of the MapReduce framework
-- test1-1_thread_1_process.cpp  # Test with 1 thread and 1 process
-- test4-1_thread_4_process.cpp  # Test with 4 processes using 1 thread each
+- **Barrier.h**                     - Header file for thread barrier
+- **Barrier.cpp**                   - Implementation of thread barrier
+- **MapReduceClient.h**             - Abstract interface for defining MapReduce jobs
+- **MapReduceFramework.h**          - Header file defining the MapReduce framework
+- **MapReduceFramework.cpp**        - Implementation of the MapReduce framework
+- **test1-1_thread_1_process.cpp**  - Test with 1 thread and 1 process
+- **test4-1_thread_4_process.cpp**  - Test with 4 processes using 1 thread each
 
 
 ## How to Use
