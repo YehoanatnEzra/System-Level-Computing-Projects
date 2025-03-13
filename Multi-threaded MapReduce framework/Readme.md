@@ -9,7 +9,6 @@ The framework allows users to define **map** and **reduce** functions and execut
 - **Flexible Job Management** – Supports job state tracking, thread synchronization, and workload distribution.
 
 ## Project Structure
-ף',+
 - **Barrier.h**                     - Header file for thread barrier
 - **Barrier.cpp**                   - Implementation of thread barrier
 - **MapReduceClient.h**             - Abstract interface for defining MapReduce jobs
