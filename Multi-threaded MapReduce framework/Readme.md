@@ -1,6 +1,6 @@
 # MapReduce Framework for Multi-Threaded Processing
 This project implements a multi-threaded MapReduce framework in C++, designed for parallel data processing.
-The framework allows users to define **map** and **reduce** functions and execute them efficiently using multiple threads. The implementation ensures thread safety and supports barrier synchronization.
+The framework allows users to define 'map' and 'reduce' functions and execute them efficiently using multiple threads. The implementation ensures thread safety and supports barrier synchronization.
 
 ## Features
 - **Custom MapReduce Implementation** – Uses user-defined `map` and `reduce` functions.
