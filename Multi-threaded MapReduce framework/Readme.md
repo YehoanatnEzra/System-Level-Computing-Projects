@@ -19,7 +19,7 @@ The framework allows users to define `map` and `reduce` functions and execute th
 
 
 ## How to Use
-- Implement a custom class inheriting from MapReduceClient (You can find usage examples in the provided test files), defining:
+- Implement a custom class inheriting from `MapReduceClient` (You can find usage examples in the provided test files), defining:
    - `map` function – Processes input data and emits intermediate key-value pairs.
    - `reduce` function – Aggregates values corresponding to each key.
 - Create input data as a vector of (K1*, V1*) pairs.
@@ -31,11 +31,11 @@ The framework allows users to define `map` and `reduce` functions and execute th
    ```cpp
    waitForJob(job);
    ```
-- Retrieve results from outputVec.
+- Retrieve results from `outputVec`.
 
 ## Tests
 This repository includes pre-written test cases (`test1-1_thread_1_process.cpp` and `test4-1_thread_4_process.cpp`) to validate the correctness and performance of the framework. These tests were not written by myself but can be used to evaluate thread safety and execution behavior.
-The test files are already included in the CMake setup but are commented out by default in CMakeLists.txt, to enable and run a test, simply uncomment the relevant test file in CMakeLists.txt before building.
+The test files are already included in the CMake setup but are commented out by default in `CMakeLists.txt`, to enable and run a test, simply uncomment the relevant test file in CMakeLists.txt before building.
 
 
 
