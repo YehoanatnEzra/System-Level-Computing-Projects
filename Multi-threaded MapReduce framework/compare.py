@@ -11,4 +11,5 @@ def compare_files(output_f, expected_f):
 			if out != exp:
 				print(f" Line {i}: Expected '{exp}', but got '{out}'")
 
-compare_files("Multi-threaded MapReduce framework/test1_output", "Multi-threaded MapReduce framework/test1-1_thread_1_expected.txt")
+compare_files("./Multi-threaded MapReduce framework/test1_output",
+              "./Multi-threaded MapReduce framework/test1-1_thread_1_expected.txt")
