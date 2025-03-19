@@ -1,0 +1,23 @@
+name: Multi-Threaded MapReduce Tests
+
+on:
+  push:
+    paths:
+      - "Multi-threaded MapReduce framework/**"
+
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Run Multi-Threaded MapReduce Framework Tests
+        run: |
+          python "Multi-threaded MapReduce framework/test1-1_thread_1_process.cpp"
+          python "Multi-threaded MapReduce framework/test4-1_thread_4_process.cpp"

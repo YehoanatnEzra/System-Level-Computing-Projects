@@ -8,6 +8,7 @@
 #include "Barrier.h"
 
 /**
+ *
  * System error messages for debugging and error handling.
  */
 #define SYS_ERR std::cout << "system error: "
