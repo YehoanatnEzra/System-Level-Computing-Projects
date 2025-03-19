@@ -23,3 +23,10 @@ jobs:
               -o test1_output
           ./test1_output
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Run comparison script
+        run: python "Multi-threaded MapReduce framework/compare.py"
