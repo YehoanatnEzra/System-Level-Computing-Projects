@@ -12,12 +12,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
+      - name: Install dependencies
+        run: sudo apt update && sudo apt install -y g++
 
-      - name: Run Multi-Threaded MapReduce Framework Tests
+      - name: Compile and run test1
         run: |
-          python "Multi-threaded MapReduce framework/test1-1_thread_1_process.cpp"
-          python "Multi-threaded MapReduce framework/test4-1_thread_4_process.cpp"
+          g++ "Multi-threaded MapReduce framework/test1-1_thread_1_process.cpp" -o test1_output
+          ./test1_output
+
+      - name: Compile and run test4
+        run: |
+          g++ "Multi-threaded MapReduce framework/test4-1_thread_4_process.cpp" -o test4_output
+          ./test4_output
+
