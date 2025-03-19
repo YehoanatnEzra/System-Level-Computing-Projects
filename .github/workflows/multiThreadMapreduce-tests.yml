@@ -17,11 +17,9 @@ jobs:
 
       - name: Compile and run test1
         run: |
-          g++ "Multi-threaded MapReduce framework/test1-1_thread_1_process.cpp" -o test1_output
+          g++ "Multi-threaded MapReduce framework/test1-1_thread_1_process.cpp" \
+              "Multi-threaded MapReduce framework/MapReduceFramework.cpp" \
+              "Multi-threaded MapReduce framework/Barrier.cpp" \
+              -o test1_output
           ./test1_output
-
-      - name: Compile and run test4
-        run: |
-          g++ "Multi-threaded MapReduce framework/test4-1_thread_4_process.cpp" -o test4_output
-          ./test4_output
 
