@@ -44,7 +44,7 @@ struct JobContext {
     IntermediateDB &mappedVectorDB; // mapped db for emit2 output
     IntermediateDB &shuffledVectorDB; // shuffled db for shuffle function output
     OutputVec *outputVec; // emit3 output for
-    std::map<pthread_t, int> *mappingJobToThread; // map for threads and their allocated microjob of mapping
+    std::map<pthread_t, int> *mappingJobToThread; // map for threads and their allocated microjob of mapping.
     pthread_cond_t *shuffleCondition; // cv used for shuffle
     std::atomic<int> *finishedMappingJobs;
     std::atomic<int> *finishedReducingJobs;
