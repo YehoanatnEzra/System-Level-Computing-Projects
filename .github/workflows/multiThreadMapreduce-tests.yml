@@ -1,7 +1,9 @@
 name: Multi-Threaded MapReduce Tests
 
 on:
-  push: [main]
+  push: 
+    branch:
+        - main 
 
 jobs:
   run_tests:
