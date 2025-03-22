@@ -25,10 +25,29 @@ jobs:
       - name: Run test1 and capture output
         run: ./test1_executable > test1_output.txt
 
-      - name: Compare output
+      - name: Compile test2
+        run: |
+          g++ "Multi-threaded MapReduce framework/est4-1_thread_4_process.cpp" \
+              "Multi-threaded MapReduce framework/MapReduceFramework.cpp" \
+              "Multi-threaded MapReduce framework/Barrier.cpp" \
+              -o test2_executable
+
+      - name: Run test2 and capture output
+        run: ./test2_executable > test2_output.txt
+
+      - name: Compare betweeen test 1 to output1 
         run: |
           if [ -f "Multi-threaded MapReduce framework/test1-1_thread_1_expected.txt" ]; then
             diff test1_output.txt "Multi-threaded MapReduce framework/test1-1_thread_1_expected.txt"
+          else
+            echo "Expected output file not found!"
+            exit 1
+          fi
+
+      - name: Compare betweeen test 2 to output2
+        run: |
+          if [ -f "Multi-threaded MapReduce framework/test4-1_thread_4_expected.txt" ]; then
+            diff test2_output.txt "Multi-threaded MapReduce framework/test4-1_thread_4_expected.txt"
           else
             echo "Expected output file not found!"
             exit 1
