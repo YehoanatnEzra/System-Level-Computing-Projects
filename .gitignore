@@ -26,3 +26,5 @@ CTestTestfile.cmake
 *.log
 *.tmp
 
+test*_executable
+Multi-threaded MapReduce framework/test*_executable
