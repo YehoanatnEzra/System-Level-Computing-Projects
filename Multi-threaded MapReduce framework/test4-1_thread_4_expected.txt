@@ -1,4 +1,4 @@
-thread 1 out is:	10141
+thread 1 out is:	1014
 thread 1 out is:	986
 thread 1 out is:	1032
 thread 1 out is:	1013
@@ -398,3 +398,4 @@ thread 4 out is:	988
 thread 4 out is:	1059
 thread 4 out is:	1023
 thread 4 out is:	961
+
