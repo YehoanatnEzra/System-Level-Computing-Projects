@@ -27,7 +27,7 @@ jobs:
 
       - name: Compile test2
         run: |
-          g++ "Multi-threaded MapReduce framework/est4-1_thread_4_process.cpp" \
+          g++ "Multi-threaded MapReduce framework/test4-1_thread_4_process.cpp" \
               "Multi-threaded MapReduce framework/MapReduceFramework.cpp" \
               "Multi-threaded MapReduce framework/Barrier.cpp" \
               -o test2_executable
