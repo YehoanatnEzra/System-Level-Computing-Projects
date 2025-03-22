@@ -1,9 +1,7 @@
 name: Multi-Threaded MapReduce Tests
 
 on:
-  push:
-    paths:
-      - "Multi-threaded MapReduce framework/**"
+  push: [main]
 
 jobs:
   run_tests:
