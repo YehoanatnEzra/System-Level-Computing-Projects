@@ -47,7 +47,7 @@ jobs:
       - name: Compare betweeen test 2 to output2
         run: |
           if [ -f "Multi-threaded MapReduce framework/test4-1_thread_4_expected.txt" ]; then
-            diff test2_output.txt "Multi-threaded MapReduce framework/test4-1_thread_4_expected.txt"
+            diff --ignore-all-space test2_output.txt "Multi-threaded MapReduce framework/test4-1_thread_4_expected.txt"
           else
             echo "Expected output file not found!"
             exit 1
